@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(22Mar2019:02:49:00):( irun -access +rwc rv32i_core.v )
+s2::(22Mar2019:02:49:47):( irun -access +rwc hazard_unit.v )
+s3::(22Mar2019:02:50:03):( irun -access +rwc forwarding_unit.v )
+s4::(22Mar2019:02:53:08):( irun -access +rwc rv32i_core.v )

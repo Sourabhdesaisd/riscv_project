@@ -1,0 +1,102 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Mar 22, 2019 at 02:53:08 IST
+irun
+	-access +rwc
+	rv32i_core.v
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+ncvlog: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+ncvlog: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+file: rv32i_core.v
+    wire pc_en;
+             |
+ncvlog: *W,ILLPDX (rv32i_core.v,20|13): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'pc_en') [12.3.4(IEEE-2001)].
+    wire [31:0] ex_result, mem_result;
+                        |
+ncvlog: *W,ILLPDX (rv32i_core.v,59|24): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'ex_result') [12.3.4(IEEE-2001)].
+    wire [31:0] wb_result;
+                        |
+ncvlog: *W,ILLPDX (rv32i_core.v,74|24): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'wb_result') [12.3.4(IEEE-2001)].
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+irun: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE gpdk045		$ANALOG/45nm/gpdk045		
+|
+ncelab: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,15): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+ncelab: *W,DLCPTH (/tools/cadence/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+ncelab: *W,DLLSVW: Unable to list the views of rfLib.rfLib (System error).
+ncelab: *W,DLLSVW: Unable to list the views of rfLib.log (System error).
+    fetch_stage fetch_stage_inst (
+                               |
+ncelab: *E,CUVMUR (./rv32i_core.v,78|31): instance 'rv32i_core.fetch_stage_inst' of design unit 'fetch_stage' is unresolved in 'worklib.rv32i_core:v'.
+    btb btb_inst (
+               |
+ncelab: *E,CUVMUR (./rv32i_core.v,93|15): instance 'rv32i_core.btb_inst' of design unit 'btb' is unresolved in 'worklib.rv32i_core:v'.
+    if_id_pipeline if_id_pipeline_inst (
+                                     |
+ncelab: *E,CUVMUR (./rv32i_core.v,107|37): instance 'rv32i_core.if_id_pipeline_inst' of design unit 'if_id_pipeline' is unresolved in 'worklib.rv32i_core:v'.
+    decode_stage decode_stage_inst (
+                                 |
+ncelab: *E,CUVMUR (./rv32i_core.v,123|33): instance 'rv32i_core.decode_stage_inst' of design unit 'decode_stage' is unresolved in 'worklib.rv32i_core:v'.
+    id_ex_pipeline id_ex_pipeline_inst (
+                                     |
+ncelab: *E,CUVMUR (./rv32i_core.v,151|37): instance 'rv32i_core.id_ex_pipeline_inst' of design unit 'id_ex_pipeline' is unresolved in 'worklib.rv32i_core:v'.
+    execute_stage execute_stage_inst (
+                                   |
+ncelab: *E,CUVMUR (./rv32i_core.v,210|35): instance 'rv32i_core.execute_stage_inst' of design unit 'execute_stage' is unresolved in 'worklib.rv32i_core:v'.
+    ex_mem_pipeline ex_mem_pipeline_inst (
+                                       |
+ncelab: *E,CUVMUR (./rv32i_core.v,254|39): instance 'rv32i_core.ex_mem_pipeline_inst' of design unit 'ex_mem_pipeline' is unresolved in 'worklib.rv32i_core:v'.
+    mem_stage mem_stage_inst (
+                           |
+ncelab: *E,CUVMUR (./rv32i_core.v,278|27): instance 'rv32i_core.mem_stage_inst' of design unit 'mem_stage' is unresolved in 'worklib.rv32i_core:v'.
+    mem_wb_pipeline mem_wb_pipeline_inst (
+                                       |
+ncelab: *E,CUVMUR (./rv32i_core.v,291|39): instance 'rv32i_core.mem_wb_pipeline_inst' of design unit 'mem_wb_pipeline' is unresolved in 'worklib.rv32i_core:v'.
+    writeback_stage writeback_stage_inst (
+                                       |
+ncelab: *E,CUVMUR (./rv32i_core.v,307|39): instance 'rv32i_core.writeback_stage_inst' of design unit 'writeback_stage' is unresolved in 'worklib.rv32i_core:v'.
+irun: *E,ELBERR: Error during elaboration (status 1), exiting.
+TOOL:	irun(64)	15.20-s051: Exiting on Mar 22, 2019 at 02:53:14 IST  (total: 00:00:06)

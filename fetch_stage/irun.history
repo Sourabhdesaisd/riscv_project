@@ -1,0 +1,4 @@
+s1(22Mar2019:02:50:36):  irun -access +rwc pc.v 
+s2(22Mar2019:02:50:47):  irun -access +rwc pc_update.v 
+s3(22Mar2019:02:51:01):  irun -access +rwc instruction_mem.v 
+s4(22Mar2019:02:51:22):  irun -access +rwc fetch_stage.v 
